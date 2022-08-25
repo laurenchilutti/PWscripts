@@ -28,7 +28,7 @@ pw_url = "https://noaa.parallel.works"
 # specify the clusters to start and wait for activation
 #clusters = ["gcluster_noaa"]
 githubSha = sys.argv[1].split(',')
-clusters = ["dycore_ci"]
+clusters = ["ci_fv3"]
 
 print('\nStarting clusters:',clusters)
 
