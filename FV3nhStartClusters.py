@@ -140,7 +140,7 @@ with open(hostsfile, 'w+') as f:
 print("\nRunning test ssh commands on the clusters...")
 import subprocess
 
-testcmd = "/contrib/fv3/fv3_compile.sh "+githubSha[0]
+testcmd = "/contrib/fv3/nhcompile.sh "+githubSha[0]
 print("\n Test command = "+testcmd)
 
 for ei,entry in enumerate(cluster_hosts):
